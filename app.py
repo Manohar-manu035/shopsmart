@@ -1,6 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
+SHIPPING_ANNOUNCEMENT="FREE SHIPPING ABOVE 1999"
 
 PRODUCTS = [
     {"id": 1, "name": "Wireless Mouse", "price": 799},
